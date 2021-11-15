@@ -99,7 +99,8 @@ function draw() {
 
 function play()
 {
-	song.play();
+	for(i=1; i>0; i++){
+	song.play();}
 	song.setVolume(1);
 	song.rate(1);
 }
